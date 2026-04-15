@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "联系我们",
+    "home": "首页",
+    "starting": "开始",
+    "records": "记录",
+    "profile": "个人资料",
+    "logout": "退出登录",
+    "cancel": "取消",
+    "submit": "提交",
+    "usd": "美元"
+  },
+  "home": {
+    "reviews": "38 条 Clutch 评论",
+    "heroTitle": "我们打造电子商务品牌和商店",
+    "heroSubtitle": "我们设计能将访客转化为客户的体验。",
+    "ourProjects": "我们的项目",
+    "menu": {
+      "vip": "VIP",
+      "activity": "活动",
+      "withdrawal": "提现",
+      "deposit": "充值",
+      "tc": "条款与条件",
+      "certificate": "证书",
+      "faqs": "常见问题",
+      "about": "关于我们"
+    }
+  },
+  "auth": {
+    "signInTitle": "登录",
+    "signUpTitle": "注册",
+    "authSubtitle": "输入您的用户名和密码以访问",
+    "username": "用户名",
+    "password": "密码",
+    "forgotPassword": "忘记密码？",
+    "rememberPassword": "记住密码",
+    "noAccount": "还没有账号？",
+    "signUp": "立即注册",
+    "cantSignIn": "无法登录？",
+    "contactSupport": "联系用户支持",
+    "phoneNumber": "输入手机号码",
+    "loginPassword": "登录密码",
+    "confirmPassword": "确认登录密码",
+    "gender": "性别",
+    "male": "男",
+    "female": "女",
+    "inviteCode": "邀请码",
+    "acceptOurs": "接受我们的",
+    "termsConditions": "条款与条件",
+    "alreadyHaveAccount": "已有账号？",
+    "signIn": "立即登录",
+    "agreeToTerms": "注册即表示您同意我们的"
+  },
+  "starting": {
+    "hello": "您好，",
+    "startNow": "立即开始 ({{completed}} / {{total}})",
+    "grabbing": "抓取中...",
+    "todayCommission": "今日佣金",
+    "commissionDesc": "显示的金额反映了今日赚取的佣金。",
+    "balance": "余额",
+    "balanceDesc": "总余额反映了充值金额和赚取的佣金。",
+    "holdAmount": "冻结金额",
+    "holdDesc": "如有疑问请联系客服",
+    "luckyBonus": "特别幸运奖金",
+    "importantNotice": "重要通知",
+    "supportHours": "在线客服时间 10:00AM - 11:00PM EST",
+    "supportAssistance": "请联系在线客服寻求帮助",
+    "marqueeText": "欢迎来到 Dazze！立即开启您的旅程，每笔订单都能赚取佣金。新的 VIP 等级现已开放！",
+    "modal": {
+      "title": "商品信息",
+      "price": "价格",
+      "commission": "佣金",
+      "confirm": "确认购买",
+      "cancel": "取消"
+    }
+  },
+  "records": {
+    "title": "记录",
+    "tabs": {
+      "all": "全部",
+      "pending": "待处理",
+      "completed": "已完成",
+      "ack": "确认"
+    },
+    "totalAmount": "总金额",
+    "profit": "利润",
+    "noRecords": "未找到记录"
+  },
+  "profile": {
+    "title": "我的资料",
+    "editImage": "编辑头像",
+    "referralCode": "我的邀请码",
+    "copySuccess": "复制成功",
+    "creditScore": "信用分",
+    "todayProfit": "今日利润",
+    "totalBalance": "总余额",
+    "sections": {
+      "myProfile": "我的资料",
+      "accountInfo": "账户信息",
+      "bindWallet": "绑定钱包",
+      "myFinancial": "我的财务",
+      "deposit": "充值",
+      "withdraw": "提现",
+      "other": "其他",
+      "notifications": "通知",
+      "changeLanguage": "更改语言"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "VIP 等级",
+    "current": "当前",
+    "orAbove": "或以上",
+    "benefit1": "普通产品 {{percent}}% 利润",
+    "benefit2": "优质产品 {{percent}}% 利润",
+    "benefit3": "每日最高 {{count}} 个产品订单"
+  },
+  "withdrawal": {
+    "title": "提现",
+    "totalBalance": "总余额",
+    "notice": "您将在一个小时内收到提现",
+    "availableAmount": "可用金额",
+    "freezeAmount": "冻结金额",
+    "withdrawAmount": "提现金额",
+    "withdrawAccount": "提现账户",
+    "transactionPassword": "交易密码",
+    "all": "全部",
+    "history": "记录"
+  },
+  "history": {
+    "title": "历史记录",
+    "all": "全部",
+    "reviewing": "审核中",
+    "success": "成功",
+    "reject": "拒绝",
+    "noMoreData": "没有更多数据",
+    "loading": "加载中...",
+    "orderId": "提现单号",
+    "money": "提现金额",
+    "createTime": "提现时间",
+    "walletType": "钱包类型",
+    "walletAddress": "钱包地址",
+    "statusDesc": "状态说明",
+    "remark": "审核理由"
+  },
+  "deposit": {
+    "title": "充值",
+    "availableBalance": "可用余额",
+    "totalBalance": "总余额",
+    "topUp": "充值",
+    "rechargeRecord": "充值记录",
+    "fundRecord": "资金记录",
+    "month": "月份",
+    "year": "年",
+    "monthWord": "月",
+    "backToTop": "顶部",
+    "loading": "加载中...",
+    "orderId": "订单号",
+    "rechargeAmount": "充值金额",
+    "rechargeTime": "充值时间",
+    "statusLabel": "状态",
+    "fundTypeLabel": "类型",
+    "changeAmount": "变动金额",
+    "beforeAmount": "变动前金额",
+    "afterAmount": "变动后金额",
+    "fundTime": "时间",
+    "fundRemark": "备注",
+    "status": {
+      "pending": "申请中",
+      "recharged": "已充值"
+    },
+    "fundType": {
+      "commission": "佣金",
+      "recharge": "充值",
+      "pay": "支付",
+      "commissionReturn": "佣金返还",
+      "withdraw": "提现",
+      "withdrawFailed": "提现失败"
+    },
+    "recentActivity": "近期活动",
+    "transactionActivity": "交易活动"
+  },
+  "account": {
+    "title": "账户信息",
+    "myProfile": "我的资料",
+    "avatar": "头像",
+    "uploadAvatar": "上传头像",
+    "uploadingAvatar": "上传中...",
+    "avatarUploadSuccess": "头像上传成功",
+    "updatePassword": "修改登录密码",
+    "updateTransactionPassword": "修改交易密码"
+  },
+  "password": {
+    "title": "修改密码",
+    "title1": "修改交易密码",
+    "oldPassword": "旧密码",
+    "newPassword": "新密码",
+    "confirmNewPassword": "确认新密码",
+    "update": "更新",
+    "updating": "更新中...",
+    "requiredError": "请填写完整密码信息",
+    "mismatchError": "两次输入的新密码不一致",
+    "updateSuccess": "密码修改成功"
+  },
+  "wallet": {
+    "title": "绑定钱包",
+    "selectCurrency": "选择币种",
+    "walletAddress": "钱包地址",
+    "network": "网络",
+    "bindNow": "立即绑定",
+    "binding": "提交中...",
+    "bindSuccess": "钱包地址保存成功",
+    "addressRequired": "请输入钱包地址",
+    "placeholderAddress": "请输入您的钱包地址",
+    "placeholderNetwork": "请选择网络"
+  },
+  "logout": {
+    "title": "哎呀！",
+    "confirmMessage": "您确定要退出登录吗？",
+    "logoutNow": "立即退出"
+  },
+  "notice": {
+    "read": "已读",
+    "unread": "未读"
+  }
+}

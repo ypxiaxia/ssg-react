@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "Contatto",
+    "home": "Home",
+    "starting": "Inizio",
+    "records": "Record",
+    "profile": "Profilo",
+    "logout": "Esci",
+    "cancel": "Annulla",
+    "submit": "Invia",
+    "usd": "USD"
+  },
+  "home": {
+    "reviews": "38 recensioni su Clutch",
+    "heroTitle": "Costruiamo brand e negozi eCommerce",
+    "heroSubtitle": "Progettiamo esperienze che trasformano i visitatori in clienti.",
+    "ourProjects": "I NOSTRI PROGETTI",
+    "menu": {
+      "vip": "VIP",
+      "activity": "Attività",
+      "withdrawal": "Prelievo",
+      "deposit": "Deposito",
+      "tc": "Termini e condizioni",
+      "certificate": "Certificato",
+      "faqs": "FAQ",
+      "about": "Chi siamo"
+    }
+  },
+  "auth": {
+    "signInTitle": "Accedi",
+    "signUpTitle": "REGISTRATI",
+    "authSubtitle": "Inserisci nome utente e password per accedere",
+    "username": "Nome utente",
+    "password": "Password",
+    "forgotPassword": "Hai dimenticato la password?",
+    "rememberPassword": "Ricorda password",
+    "noAccount": "Non hai ancora un account?",
+    "signUp": "Registrati",
+    "cantSignIn": "Non riesci ad accedere?",
+    "contactSupport": "Contatta il supporto utenti",
+    "phoneNumber": "Inserisci un numero di telefono",
+    "loginPassword": "Password di accesso",
+    "confirmPassword": "Conferma password di accesso",
+    "gender": "Genere",
+    "male": "Maschio",
+    "female": "Femmina",
+    "inviteCode": "Codice invito",
+    "acceptOurs": "Accetta i nostri",
+    "termsConditions": "Termini e condizioni",
+    "alreadyHaveAccount": "Hai già un account?",
+    "signIn": "Accedi",
+    "agreeToTerms": "Registrandoti, accetti i nostri"
+  },
+  "starting": {
+    "hello": "Ciao,",
+    "startNow": "INIZIA ORA ({{completed}} / {{total}})",
+    "grabbing": "Acquisizione in corso...",
+    "todayCommission": "COMMISSIONE DI OGGI",
+    "commissionDesc": "L'importo mostrato riflette le commissioni guadagnate oggi.",
+    "balance": "SALDO",
+    "balanceDesc": "Il saldo totale riflette sia il deposito che le commissioni guadagnate.",
+    "holdAmount": "IMPORTO BLOCCATO",
+    "holdDesc": "Contatta il supporto per richieste",
+    "luckyBonus": "Bonus speciale fortunato",
+    "importantNotice": "Avviso importante",
+    "supportHours": "Orario supporto online 10:00AM - 11:00PM EST",
+    "supportAssistance": "Contatta il supporto online per assistenza",
+    "marqueeText": "Benvenuto su Dazze! Inizia il tuo percorso ora e guadagna commissioni con ogni ordine. Nuovi livelli VIP disponibili!",
+    "modal": {
+      "title": "Informazioni prodotto",
+      "price": "Prezzo",
+      "commission": "Commissione",
+      "confirm": "Conferma acquisto",
+      "cancel": "Annulla"
+    }
+  },
+  "records": {
+    "title": "Record",
+    "tabs": {
+      "all": "Tutti",
+      "pending": "In attesa",
+      "completed": "Completato",
+      "ack": "Conferma"
+    },
+    "totalAmount": "Importo totale",
+    "profit": "Profitto",
+    "noRecords": "Nessun record trovato"
+  },
+  "profile": {
+    "title": "Il mio profilo",
+    "editImage": "Modifica immagine profilo",
+    "referralCode": "Il mio codice referral",
+    "copySuccess": "Copiato con successo",
+    "creditScore": "Punteggio di credito",
+    "todayProfit": "Profitto di oggi",
+    "totalBalance": "Saldo totale",
+    "sections": {
+      "myProfile": "Il mio profilo",
+      "accountInfo": "Informazioni account",
+      "bindWallet": "Collega wallet",
+      "myFinancial": "Le mie finanze",
+      "deposit": "Deposito",
+      "withdraw": "Prelievo",
+      "other": "Altro",
+      "notifications": "Notifiche",
+      "changeLanguage": "Cambia lingua"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "Livelli VIP",
+    "current": "ATTUALE",
+    "orAbove": "o superiore",
+    "benefit1": "{{percent}}% di profitto sui prodotti normali",
+    "benefit2": "{{percent}}% di profitto sui prodotti premium",
+    "benefit3": "Massimo {{count}} ordini prodotto al giorno"
+  },
+  "withdrawal": {
+    "title": "Prelievo",
+    "totalBalance": "Saldo totale",
+    "notice": "Riceverai il prelievo entro un'ora",
+    "availableAmount": "Importo disponibile",
+    "freezeAmount": "Importo bloccato",
+    "withdrawAmount": "Importo prelievo",
+    "withdrawAccount": "Conto prelievo",
+    "transactionPassword": "Password transazione",
+    "all": "TUTTO",
+    "history": "Storico"
+  },
+  "history": {
+    "title": "Storico",
+    "all": "Tutti",
+    "reviewing": "In revisione",
+    "success": "Successo",
+    "reject": "Rifiutato",
+    "noMoreData": "Nessun altro dato",
+    "loading": "Caricamento...",
+    "orderId": "ID ordine prelievo",
+    "money": "Importo prelievo",
+    "createTime": "Ora prelievo",
+    "walletType": "Tipo wallet",
+    "walletAddress": "Indirizzo wallet",
+    "statusDesc": "Stato",
+    "remark": "Nota revisione"
+  },
+  "deposit": {
+    "title": "Deposito",
+    "availableBalance": "Saldo disponibile",
+    "totalBalance": "Saldo totale",
+    "topUp": "RICARICA",
+    "rechargeRecord": "Storico ricariche",
+    "fundRecord": "Storico fondi",
+    "month": "Mese",
+    "year": "Anno",
+    "monthWord": "Mese",
+    "backToTop": "Su",
+    "loading": "Caricamento...",
+    "orderId": "ID ordine",
+    "rechargeAmount": "Importo ricarica",
+    "rechargeTime": "Ora ricarica",
+    "statusLabel": "Stato",
+    "fundTypeLabel": "Tipo",
+    "changeAmount": "Importo variazione",
+    "beforeAmount": "Importo prima della variazione",
+    "afterAmount": "Importo dopo la variazione",
+    "fundTime": "Ora",
+    "fundRemark": "Nota",
+    "status": {
+      "pending": "In attesa",
+      "recharged": "Ricaricato"
+    },
+    "fundType": {
+      "commission": "Commissione",
+      "recharge": "Ricarica",
+      "pay": "Pagamento",
+      "commissionReturn": "Rimborso commissione",
+      "withdraw": "Prelievo",
+      "withdrawFailed": "Prelievo fallito"
+    },
+    "recentActivity": "Attività recenti",
+    "transactionActivity": "Attività transazioni"
+  },
+  "account": {
+    "title": "Informazioni account",
+    "myProfile": "Il mio profilo",
+    "avatar": "Avatar",
+    "uploadAvatar": "Carica avatar",
+    "uploadingAvatar": "Caricamento in corso...",
+    "avatarUploadSuccess": "Avatar caricato con successo",
+    "updatePassword": "Aggiorna password",
+    "updateTransactionPassword": "Aggiorna password transazione"
+  },
+  "password": {
+    "title": "Aggiorna password",
+    "title1": "Aggiorna password transazione",
+    "oldPassword": "Vecchia password",
+    "newPassword": "Nuova password",
+    "confirmNewPassword": "Conferma nuova password",
+    "update": "Aggiorna",
+    "updating": "Aggiornamento in corso...",
+    "requiredError": "Compila tutti i campi password",
+    "mismatchError": "Le due nuove password non coincidono",
+    "updateSuccess": "Password aggiornata con successo"
+  },
+  "wallet": {
+    "title": "Collega wallet",
+    "selectCurrency": "Seleziona valuta",
+    "walletAddress": "Indirizzo wallet",
+    "network": "Rete",
+    "bindNow": "Collega ora",
+    "binding": "Invio in corso...",
+    "bindSuccess": "Wallet salvato con successo",
+    "addressRequired": "Inserisci l'indirizzo wallet",
+    "placeholderAddress": "Inserisci il tuo indirizzo wallet",
+    "placeholderNetwork": "Seleziona rete"
+  },
+  "logout": {
+    "title": "OPS!",
+    "confirmMessage": "Sei sicuro di voler uscire?",
+    "logoutNow": "ESCI ORA"
+  },
+  "notice": {
+    "read": "Letto",
+    "unread": "Non letto"
+  }
+}

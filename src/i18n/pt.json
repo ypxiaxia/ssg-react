@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "Contato",
+    "home": "Início",
+    "starting": "Começar",
+    "records": "Registros",
+    "profile": "Perfil",
+    "logout": "Sair",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "usd": "USD"
+  },
+  "home": {
+    "reviews": "38 avaliações no Clutch",
+    "heroTitle": "Construímos marcas e lojas de eCommerce",
+    "heroSubtitle": "Criamos experiências que transformam visitantes em clientes.",
+    "ourProjects": "NOSSOS PROJETOS",
+    "menu": {
+      "vip": "VIP",
+      "activity": "Atividade",
+      "withdrawal": "Saque",
+      "deposit": "Depósito",
+      "tc": "Termos e Condições",
+      "certificate": "Certificado",
+      "faqs": "Perguntas frequentes",
+      "about": "Sobre"
+    }
+  },
+  "auth": {
+    "signInTitle": "Entrar",
+    "signUpTitle": "CADASTRO",
+    "authSubtitle": "Digite seu usuário e senha para acessar",
+    "username": "Nome de usuário",
+    "password": "Senha",
+    "forgotPassword": "Esqueceu sua senha?",
+    "rememberPassword": "Lembrar senha",
+    "noAccount": "Ainda não tem uma conta?",
+    "signUp": "Cadastrar-se",
+    "cantSignIn": "Não consegue entrar?",
+    "contactSupport": "Contatar suporte ao usuário",
+    "phoneNumber": "Digite um número de telefone",
+    "loginPassword": "Senha de login",
+    "confirmPassword": "Confirmar senha de login",
+    "gender": "Gênero",
+    "male": "Masculino",
+    "female": "Feminino",
+    "inviteCode": "Código de convite",
+    "acceptOurs": "Aceitar nossos",
+    "termsConditions": "Termos e Condições",
+    "alreadyHaveAccount": "Já tem uma conta?",
+    "signIn": "Entrar",
+    "agreeToTerms": "Ao se cadastrar, você concorda com nossos"
+  },
+  "starting": {
+    "hello": "Olá,",
+    "startNow": "COMEÇAR AGORA ({{completed}} / {{total}})",
+    "grabbing": "Capturando...",
+    "todayCommission": "COMISSÃO DE HOJE",
+    "commissionDesc": "O valor exibido reflete as comissões ganhas hoje.",
+    "balance": "SALDO",
+    "balanceDesc": "O saldo total reflete tanto o depósito quanto as comissões ganhas.",
+    "holdAmount": "VALOR RETIDO",
+    "holdDesc": "Contate o suporte para dúvidas",
+    "luckyBonus": "Bônus especial de sorte",
+    "importantNotice": "Aviso importante",
+    "supportHours": "Horário do suporte online 10:00AM - 11:00PM EST",
+    "supportAssistance": "Entre em contato com o suporte online para obter ajuda",
+    "marqueeText": "Bem-vindo à Dazze! Comece sua jornada agora e ganhe comissões em cada pedido. Novos níveis VIP já disponíveis!",
+    "modal": {
+      "title": "Informações do produto",
+      "price": "Preço",
+      "commission": "Comissão",
+      "confirm": "Confirmar compra",
+      "cancel": "Cancelar"
+    }
+  },
+  "records": {
+    "title": "Registros",
+    "tabs": {
+      "all": "Todos",
+      "pending": "Pendente",
+      "completed": "Concluído",
+      "ack": "Confirmar"
+    },
+    "totalAmount": "Valor total",
+    "profit": "Lucro",
+    "noRecords": "Nenhum registro encontrado"
+  },
+  "profile": {
+    "title": "Meu Perfil",
+    "editImage": "Editar imagem do perfil",
+    "referralCode": "Meu código de indicação",
+    "copySuccess": "Copiado com sucesso",
+    "creditScore": "Pontuação de crédito",
+    "todayProfit": "Lucro de hoje",
+    "totalBalance": "Saldo total",
+    "sections": {
+      "myProfile": "Meu Perfil",
+      "accountInfo": "Informações da conta",
+      "bindWallet": "Vincular carteira",
+      "myFinancial": "Minhas finanças",
+      "deposit": "Depósito",
+      "withdraw": "Saque",
+      "other": "Outros",
+      "notifications": "Notificações",
+      "changeLanguage": "Mudar idioma"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "Níveis VIP",
+    "current": "ATUAL",
+    "orAbove": "ou acima",
+    "benefit1": "{{percent}}% de lucro em produtos normais",
+    "benefit2": "{{percent}}% de lucro em produtos premium",
+    "benefit3": "Máximo de {{count}} pedidos por dia"
+  },
+  "withdrawal": {
+    "title": "Saque",
+    "totalBalance": "Saldo total",
+    "notice": "Você receberá seu saque dentro de uma hora",
+    "availableAmount": "Valor disponível",
+    "freezeAmount": "Valor congelado",
+    "withdrawAmount": "Valor de saque",
+    "withdrawAccount": "Conta de saque",
+    "transactionPassword": "Senha de transação",
+    "all": "TODOS",
+    "history": "Histórico"
+  },
+  "history": {
+    "title": "Histórico",
+    "all": "Todos",
+    "reviewing": "Em análise",
+    "success": "Sucesso",
+    "reject": "Rejeitado",
+    "noMoreData": "Não há mais dados",
+    "loading": "Carregando...",
+    "orderId": "ID da ordem de saque",
+    "money": "Valor de saque",
+    "createTime": "Hora do saque",
+    "walletType": "Tipo de carteira",
+    "walletAddress": "Endereço da carteira",
+    "statusDesc": "Status",
+    "remark": "Observação da análise"
+  },
+  "deposit": {
+    "title": "Depósito",
+    "availableBalance": "Saldo disponível",
+    "totalBalance": "Saldo total",
+    "topUp": "RECARREGAR",
+    "rechargeRecord": "Registro de recarga",
+    "fundRecord": "Registro de fundos",
+    "month": "Mês",
+    "year": "Ano",
+    "monthWord": "Mês",
+    "backToTop": "Topo",
+    "loading": "Carregando...",
+    "orderId": "ID do pedido",
+    "rechargeAmount": "Valor da recarga",
+    "rechargeTime": "Hora da recarga",
+    "statusLabel": "Status",
+    "fundTypeLabel": "Tipo",
+    "changeAmount": "Valor da alteração",
+    "beforeAmount": "Valor antes da alteração",
+    "afterAmount": "Valor após a alteração",
+    "fundTime": "Hora",
+    "fundRemark": "Observação",
+    "status": {
+      "pending": "Pendente",
+      "recharged": "Recarregado"
+    },
+    "fundType": {
+      "commission": "Comissão",
+      "recharge": "Recarga",
+      "pay": "Pagamento",
+      "commissionReturn": "Retorno de comissão",
+      "withdraw": "Saque",
+      "withdrawFailed": "Falha no saque"
+    },
+    "recentActivity": "Atividade recente",
+    "transactionActivity": "Atividade de transações"
+  },
+  "account": {
+    "title": "Informações da conta",
+    "myProfile": "Meu perfil",
+    "avatar": "Avatar",
+    "uploadAvatar": "Enviar avatar",
+    "uploadingAvatar": "Enviando...",
+    "avatarUploadSuccess": "Avatar enviado com sucesso",
+    "updatePassword": "Atualizar senha",
+    "updateTransactionPassword": "Atualizar senha de transação"
+  },
+  "password": {
+    "title": "Atualizar senha",
+    "title1": "Atualizar senha de transação",
+    "oldPassword": "Senha antiga",
+    "newPassword": "Nova senha",
+    "confirmNewPassword": "Confirmar nova senha",
+    "update": "Atualizar",
+    "updating": "Atualizando...",
+    "requiredError": "Preencha todos os campos de senha",
+    "mismatchError": "As duas novas senhas não coincidem",
+    "updateSuccess": "Senha atualizada com sucesso"
+  },
+  "wallet": {
+    "title": "Vincular carteira",
+    "selectCurrency": "Selecionar moeda",
+    "walletAddress": "Endereço da carteira",
+    "network": "Rede",
+    "bindNow": "Vincular agora",
+    "binding": "Enviando...",
+    "bindSuccess": "Carteira salva com sucesso",
+    "addressRequired": "Digite o endereço da carteira",
+    "placeholderAddress": "Digite o endereço da sua carteira",
+    "placeholderNetwork": "Selecione a rede"
+  },
+  "logout": {
+    "title": "OPS!",
+    "confirmMessage": "Tem certeza de que deseja sair?",
+    "logoutNow": "SAIR AGORA"
+  },
+  "notice": {
+    "read": "Lido",
+    "unread": "Não lido"
+  }
+}

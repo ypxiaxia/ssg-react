@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "문의하기",
+    "home": "홈",
+    "starting": "시작",
+    "records": "기록",
+    "profile": "프로필",
+    "logout": "로그아웃",
+    "cancel": "취소",
+    "submit": "제출",
+    "usd": "USD"
+  },
+  "home": {
+    "reviews": "Clutch 리뷰 38개",
+    "heroTitle": "우리는 이커머스 브랜드와 스토어를 만듭니다",
+    "heroSubtitle": "방문자를 고객으로 전환하는 경험을 설계합니다.",
+    "ourProjects": "우리의 프로젝트",
+    "menu": {
+      "vip": "VIP",
+      "activity": "이벤트",
+      "withdrawal": "출금",
+      "deposit": "입금",
+      "tc": "약관",
+      "certificate": "인증서",
+      "faqs": "자주 묻는 질문",
+      "about": "회사 소개"
+    }
+  },
+  "auth": {
+    "signInTitle": "로그인",
+    "signUpTitle": "회원가입",
+    "authSubtitle": "접속하려면 사용자명과 비밀번호를 입력하세요",
+    "username": "사용자명",
+    "password": "비밀번호",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "rememberPassword": "비밀번호 기억",
+    "noAccount": "아직 계정이 없으신가요?",
+    "signUp": "회원가입",
+    "cantSignIn": "로그인할 수 없나요?",
+    "contactSupport": "고객지원 문의",
+    "phoneNumber": "전화번호 입력",
+    "loginPassword": "로그인 비밀번호",
+    "confirmPassword": "로그인 비밀번호 확인",
+    "gender": "성별",
+    "male": "남성",
+    "female": "여성",
+    "inviteCode": "초대 코드",
+    "acceptOurs": "우리의",
+    "termsConditions": "이용약관",
+    "alreadyHaveAccount": "이미 계정이 있으신가요?",
+    "signIn": "로그인",
+    "agreeToTerms": "가입하면 다음에 동의하는 것으로 간주됩니다"
+  },
+  "starting": {
+    "hello": "안녕하세요,",
+    "startNow": "지금 시작 ({{completed}} / {{total}})",
+    "grabbing": "가져오는 중...",
+    "todayCommission": "오늘의 수수료",
+    "commissionDesc": "표시된 금액은 오늘 획득한 수수료를 반영합니다.",
+    "balance": "잔액",
+    "balanceDesc": "총 잔액은 입금액과 획득 수수료를 반영합니다.",
+    "holdAmount": "보류 금액",
+    "holdDesc": "문의 사항은 고객센터로 연락하세요",
+    "luckyBonus": "특별 행운 보너스",
+    "importantNotice": "중요 공지",
+    "supportHours": "온라인 지원 시간 10:00AM - 11:00PM EST",
+    "supportAssistance": "도움이 필요하면 온라인 고객센터로 문의하세요",
+    "marqueeText": "Dazze에 오신 것을 환영합니다! 지금 시작하고 주문마다 수수료를 받으세요. 새로운 VIP 레벨이 열렸습니다!",
+    "modal": {
+      "title": "상품 정보",
+      "price": "가격",
+      "commission": "수수료",
+      "confirm": "구매 확인",
+      "cancel": "취소"
+    }
+  },
+  "records": {
+    "title": "기록",
+    "tabs": {
+      "all": "전체",
+      "pending": "대기 중",
+      "completed": "완료",
+      "ack": "확인"
+    },
+    "totalAmount": "총 금액",
+    "profit": "수익",
+    "noRecords": "기록이 없습니다"
+  },
+  "profile": {
+    "title": "내 프로필",
+    "editImage": "프로필 이미지 수정",
+    "referralCode": "내 추천 코드",
+    "copySuccess": "복사되었습니다",
+    "creditScore": "신용 점수",
+    "todayProfit": "오늘 수익",
+    "totalBalance": "총 잔액",
+    "sections": {
+      "myProfile": "내 프로필",
+      "accountInfo": "계정 정보",
+      "bindWallet": "지갑 연결",
+      "myFinancial": "내 재무",
+      "deposit": "입금",
+      "withdraw": "출금",
+      "other": "기타",
+      "notifications": "알림",
+      "changeLanguage": "언어 변경"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "VIP 레벨",
+    "current": "현재",
+    "orAbove": "이상",
+    "benefit1": "일반 상품 {{percent}}% 수익",
+    "benefit2": "프리미엄 상품 {{percent}}% 수익",
+    "benefit3": "일일 최대 {{count}}개 상품 주문"
+  },
+  "withdrawal": {
+    "title": "출금",
+    "totalBalance": "총 잔액",
+    "notice": "출금은 1시간 내 처리됩니다",
+    "availableAmount": "사용 가능 금액",
+    "freezeAmount": "동결 금액",
+    "withdrawAmount": "출금 금액",
+    "withdrawAccount": "출금 계정",
+    "transactionPassword": "거래 비밀번호",
+    "all": "전체",
+    "history": "기록"
+  },
+  "history": {
+    "title": "내역",
+    "all": "전체",
+    "reviewing": "심사 중",
+    "success": "성공",
+    "reject": "거절",
+    "noMoreData": "더 이상 데이터가 없습니다",
+    "loading": "로딩 중...",
+    "orderId": "출금 주문 번호",
+    "money": "출금 금액",
+    "createTime": "출금 시간",
+    "walletType": "지갑 유형",
+    "walletAddress": "지갑 주소",
+    "statusDesc": "상태 설명",
+    "remark": "심사 사유"
+  },
+  "deposit": {
+    "title": "입금",
+    "availableBalance": "사용 가능 잔액",
+    "totalBalance": "총 잔액",
+    "topUp": "충전",
+    "rechargeRecord": "충전 기록",
+    "fundRecord": "자금 기록",
+    "month": "월",
+    "year": "년",
+    "monthWord": "월",
+    "backToTop": "맨 위로",
+    "loading": "로딩 중...",
+    "orderId": "주문 번호",
+    "rechargeAmount": "충전 금액",
+    "rechargeTime": "충전 시간",
+    "statusLabel": "상태",
+    "fundTypeLabel": "유형",
+    "changeAmount": "변동 금액",
+    "beforeAmount": "변동 전 금액",
+    "afterAmount": "변동 후 금액",
+    "fundTime": "시간",
+    "fundRemark": "비고",
+    "status": {
+      "pending": "신청 중",
+      "recharged": "충전 완료"
+    },
+    "fundType": {
+      "commission": "수수료",
+      "recharge": "충전",
+      "pay": "결제",
+      "commissionReturn": "수수료 환급",
+      "withdraw": "출금",
+      "withdrawFailed": "출금 실패"
+    },
+    "recentActivity": "최근 활동",
+    "transactionActivity": "거래 활동"
+  },
+  "account": {
+    "title": "계정 정보",
+    "myProfile": "내 프로필",
+    "avatar": "아바타",
+    "uploadAvatar": "아바타 업로드",
+    "uploadingAvatar": "업로드 중...",
+    "avatarUploadSuccess": "아바타 업로드 성공",
+    "updatePassword": "로그인 비밀번호 변경",
+    "updateTransactionPassword": "거래 비밀번호 변경"
+  },
+  "password": {
+    "title": "비밀번호 변경",
+    "title1": "거래 비밀번호 변경",
+    "oldPassword": "기존 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmNewPassword": "새 비밀번호 확인",
+    "update": "업데이트",
+    "updating": "업데이트 중...",
+    "requiredError": "모든 비밀번호 항목을 입력하세요",
+    "mismatchError": "새 비밀번호가 일치하지 않습니다",
+    "updateSuccess": "비밀번호가 성공적으로 변경되었습니다"
+  },
+  "wallet": {
+    "title": "지갑 연결",
+    "selectCurrency": "통화 선택",
+    "walletAddress": "지갑 주소",
+    "network": "네트워크",
+    "bindNow": "지금 연결",
+    "binding": "제출 중...",
+    "bindSuccess": "지갑 주소가 저장되었습니다",
+    "addressRequired": "지갑 주소를 입력하세요",
+    "placeholderAddress": "지갑 주소를 입력하세요",
+    "placeholderNetwork": "네트워크를 선택하세요"
+  },
+  "logout": {
+    "title": "앗!",
+    "confirmMessage": "정말 로그아웃하시겠습니까?",
+    "logoutNow": "지금 로그아웃"
+  },
+  "notice": {
+    "read": "읽음",
+    "unread": "읽지 않음"
+  }
+}

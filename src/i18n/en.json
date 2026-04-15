@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "Contact",
+    "home": "Home",
+    "starting": "Starting",
+    "records": "Records",
+    "profile": "Profile",
+    "logout": "Logout",
+    "cancel": "CANCEL",
+    "submit": "Submit",
+    "usd": "USD"
+  },
+  "home": {
+    "reviews": "38 Clutch Reviews",
+    "heroTitle": "We build eCommerce brands and stores",
+    "heroSubtitle": "We design experiences that turn visitors into customers.",
+    "ourProjects": "OUR PROJECTS",
+    "menu": {
+      "vip": "VIP",
+      "activity": "Activity",
+      "withdrawal": "Withdrawal",
+      "deposit": "Deposit",
+      "tc": "T & C",
+      "certificate": "Certificate",
+      "faqs": "FAQs",
+      "about": "About"
+    }
+  },
+  "auth": {
+    "signInTitle": "Sign In",
+    "signUpTitle": "SIGN UP",
+    "authSubtitle": "Enter your username and password to access",
+    "username": "Username",
+    "password": "Password",
+    "forgotPassword": "Forgot your password?",
+    "rememberPassword": "Remember Password",
+    "noAccount": "Don't have an account yet?",
+    "signUp": "Sign Up",
+    "cantSignIn": "Can't sign in?",
+    "contactSupport": "Contact our user support",
+    "phoneNumber": "Enter a phone number",
+    "loginPassword": "Login Password",
+    "confirmPassword": "Confirm Login Password",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "inviteCode": "Invite Code",
+    "acceptOurs": "Accept ours",
+    "termsConditions": "Terms and Conditions",
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "agreeToTerms": "By signing up, you agree to our"
+  },
+  "starting": {
+    "hello": "Hello,",
+    "startNow": "START NOW ({{completed}} / {{total}})",
+    "grabbing": "Grabbing...",
+    "todayCommission": "TODAY'S COMMISSION",
+    "commissionDesc": "The displayed amount reflects today's earned commissions.",
+    "balance": "BALANCE",
+    "balanceDesc": "The total balance reflects both the deposited amount and earned commissions.",
+    "holdAmount": "HOLD AMOUNT",
+    "holdDesc": "Contact Support for inquiries",
+    "luckyBonus": "Special Lucky Bonus",
+    "importantNotice": "Important Notice",
+    "supportHours": "Online Support Hours 10:00AM - 11:00PM EST",
+    "supportAssistance": "Please contact online support for your assistance",
+    "marqueeText": "Welcome to Dazze! Start your journey now and earn commissions with every order. New VIP levels are now available!",
+    "modal": {
+      "title": "Product Information",
+      "price": "Price",
+      "commission": "Commission",
+      "confirm": "Confirm Purchase",
+      "cancel": "Cancel"
+    }
+  },
+  "records": {
+    "title": "Records",
+    "tabs": {
+      "all": "All",
+      "pending": "Pending",
+      "completed": "Completed",
+      "ack": "Ack"
+    },
+    "totalAmount": "Total Amount",
+    "profit": "Profit",
+    "noRecords": "No records found"
+  },
+  "profile": {
+    "title": "My Profile",
+    "editImage": "Edit Profile Image",
+    "referralCode": "My Referral Code",
+    "copySuccess": "Copied successfully",
+    "creditScore": "Credit Score",
+    "todayProfit": "Today's Profit",
+    "totalBalance": "Total Balance",
+    "sections": {
+      "myProfile": "My Profile",
+      "accountInfo": "Account Info",
+      "bindWallet": "Bind Wallet",
+      "myFinancial": "My Financial",
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "other": "Other",
+      "notifications": "Notifications",
+      "changeLanguage": "Change Language"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "Vip Levels",
+    "current": "CURRENT",
+    "orAbove": "or above",
+    "benefit1": "{{percent}}% profit on normal products",
+    "benefit2": "{{percent}}% profit on premium products",
+    "benefit3": "Maximum {{count}} product orders per day"
+  },
+  "withdrawal": {
+    "title": "Withdrawal",
+    "totalBalance": "Total Balance",
+    "notice": "You will receive your withdrawal within an hour",
+    "availableAmount": "Available Amount",
+    "freezeAmount": "Freeze Amount",
+    "withdrawAmount": "Withdraw Amount",
+    "withdrawAccount": "Withdraw Account",
+    "transactionPassword": "Transaction Password",
+    "all": "ALL",
+    "history": "History"
+  },
+  "history": {
+    "title": "History",
+    "all": "All",
+    "reviewing": "Reviewing",
+    "success": "Success",
+    "reject": "Reject",
+    "noMoreData": "No more data",
+    "loading": "Loading...",
+    "orderId": "Withdrawal Order ID",
+    "money": "Withdrawal Amount",
+    "createTime": "Withdrawal Time",
+    "walletType": "Wallet Type",
+    "walletAddress": "Wallet Address",
+    "statusDesc": "Status",
+    "remark": "Review Remark"
+  },
+  "deposit": {
+    "title": "Deposit",
+    "availableBalance": "Available Balance",
+    "totalBalance": "Total Balance",
+    "topUp": "TOP UP",
+    "rechargeRecord": "Recharge Record",
+    "fundRecord": "Fund Record",
+    "month": "Month",
+    "year": "Year",
+    "monthWord": "Month",
+    "backToTop": "Top",
+    "loading": "Loading...",
+    "orderId": "Order ID",
+    "rechargeAmount": "Recharge Amount",
+    "rechargeTime": "Recharge Time",
+    "statusLabel": "Status",
+    "fundTypeLabel": "Type",
+    "changeAmount": "Change Amount",
+    "beforeAmount": "Amount Before Change",
+    "afterAmount": "Amount After Change",
+    "fundTime": "Time",
+    "fundRemark": "Remark",
+    "status": {
+      "pending": "Pending",
+      "recharged": "Recharged"
+    },
+    "fundType": {
+      "commission": "Commission",
+      "recharge": "Recharge",
+      "pay": "Payment",
+      "commissionReturn": "Commission Return",
+      "withdraw": "Withdrawal",
+      "withdrawFailed": "Withdrawal Failed"
+    },
+    "recentActivity": "Recent Activity",
+    "transactionActivity": "Transaction Activity"
+  },
+  "account": {
+    "title": "Account Info",
+    "myProfile": "My Profile",
+    "avatar": "Avatar",
+    "uploadAvatar": "Upload Avatar",
+    "uploadingAvatar": "Uploading...",
+    "avatarUploadSuccess": "Avatar uploaded successfully",
+    "updatePassword": "Update Password",
+    "updateTransactionPassword": "Update Transaction Password"
+  },
+  "password": {
+    "title": "Update Password",
+    "title1": "Update Transaction Password",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "update": "Update",
+    "updating": "Updating...",
+    "requiredError": "Please fill in all password fields",
+    "mismatchError": "The two new passwords do not match",
+    "updateSuccess": "Password updated successfully"
+  },
+  "wallet": {
+    "title": "Bind Wallet",
+    "selectCurrency": "Select Currency",
+    "walletAddress": "Wallet Address",
+    "network": "Network",
+    "bindNow": "Bind Now",
+    "binding": "Submitting...",
+    "bindSuccess": "Wallet saved successfully",
+    "addressRequired": "Please enter wallet address",
+    "placeholderAddress": "Enter your wallet address",
+    "placeholderNetwork": "Select network"
+  },
+  "logout": {
+    "title": "OPPS!",
+    "confirmMessage": "Are you sure you want to logout?",
+    "logoutNow": "LOG OUT NOW"
+  },
+  "notice": {
+    "read": "Read",
+    "unread": "Unread"
+  }
+}

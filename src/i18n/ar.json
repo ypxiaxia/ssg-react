@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "اتصل بنا",
+    "home": "الرئيسية",
+    "starting": "البدء",
+    "records": "السجلات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "cancel": "إلغاء",
+    "submit": "إرسال",
+    "usd": "دولار"
+  },
+  "home": {
+    "reviews": "38 تقييمًا على Clutch",
+    "heroTitle": "نحن نبني علامات ومتاجر تجارة إلكترونية",
+    "heroSubtitle": "نصمم تجارب تحول الزوار إلى عملاء.",
+    "ourProjects": "مشاريعنا",
+    "menu": {
+      "vip": "VIP",
+      "activity": "الأنشطة",
+      "withdrawal": "السحب",
+      "deposit": "الإيداع",
+      "tc": "الشروط والأحكام",
+      "certificate": "الشهادة",
+      "faqs": "الأسئلة الشائعة",
+      "about": "حول"
+    }
+  },
+  "auth": {
+    "signInTitle": "تسجيل الدخول",
+    "signUpTitle": "إنشاء حساب",
+    "authSubtitle": "أدخل اسم المستخدم وكلمة المرور للوصول",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "rememberPassword": "تذكر كلمة المرور",
+    "noAccount": "ليس لديك حساب بعد؟",
+    "signUp": "إنشاء حساب",
+    "cantSignIn": "لا تستطيع تسجيل الدخول؟",
+    "contactSupport": "اتصل بدعم العملاء",
+    "phoneNumber": "أدخل رقم الهاتف",
+    "loginPassword": "كلمة مرور تسجيل الدخول",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "gender": "الجنس",
+    "male": "ذكر",
+    "female": "أنثى",
+    "inviteCode": "رمز الدعوة",
+    "acceptOurs": "أوافق على",
+    "termsConditions": "الشروط والأحكام",
+    "alreadyHaveAccount": "لديك حساب بالفعل؟",
+    "signIn": "تسجيل الدخول",
+    "agreeToTerms": "بالتسجيل فأنت توافق على"
+  },
+  "starting": {
+    "hello": "مرحبًا،",
+    "startNow": "ابدأ الآن ({{completed}} / {{total}})",
+    "grabbing": "جارٍ الالتقاط...",
+    "todayCommission": "عمولة اليوم",
+    "commissionDesc": "المبلغ المعروض يعكس العمولة المكتسبة اليوم.",
+    "balance": "الرصيد",
+    "balanceDesc": "الرصيد الإجمالي يعكس الإيداع والعمولات المكتسبة.",
+    "holdAmount": "المبلغ المجمّد",
+    "holdDesc": "للاستفسارات يرجى التواصل مع الدعم",
+    "luckyBonus": "مكافأة الحظ الخاصة",
+    "importantNotice": "إشعار مهم",
+    "supportHours": "ساعات الدعم: 10:00 صباحًا - 11:00 مساءً EST",
+    "supportAssistance": "يرجى التواصل مع الدعم عبر الإنترنت للمساعدة",
+    "marqueeText": "مرحبًا بك في Dazze! ابدأ رحلتك الآن واربح عمولات مع كل طلب. مستويات VIP الجديدة متاحة الآن!",
+    "modal": {
+      "title": "معلومات المنتج",
+      "price": "السعر",
+      "commission": "العمولة",
+      "confirm": "تأكيد الشراء",
+      "cancel": "إلغاء"
+    }
+  },
+  "records": {
+    "title": "السجلات",
+    "tabs": {
+      "all": "الكل",
+      "pending": "قيد الانتظار",
+      "completed": "مكتمل",
+      "ack": "تأكيد"
+    },
+    "totalAmount": "المبلغ الإجمالي",
+    "profit": "الربح",
+    "noRecords": "لا توجد سجلات"
+  },
+  "profile": {
+    "title": "ملفي الشخصي",
+    "editImage": "تعديل الصورة الشخصية",
+    "referralCode": "رمز الإحالة الخاص بي",
+    "copySuccess": "تم النسخ بنجاح",
+    "creditScore": "درجة الثقة",
+    "todayProfit": "ربح اليوم",
+    "totalBalance": "الرصيد الإجمالي",
+    "sections": {
+      "myProfile": "ملفي الشخصي",
+      "accountInfo": "معلومات الحساب",
+      "bindWallet": "ربط المحفظة",
+      "myFinancial": "أموالي",
+      "deposit": "الإيداع",
+      "withdraw": "السحب",
+      "other": "أخرى",
+      "notifications": "الإشعارات",
+      "changeLanguage": "تغيير اللغة"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "مستويات VIP",
+    "current": "الحالي",
+    "orAbove": "أو أكثر",
+    "benefit1": "ربح {{percent}}% على المنتجات العادية",
+    "benefit2": "ربح {{percent}}% على المنتجات المميزة",
+    "benefit3": "حد أقصى {{count}} طلب منتج يوميًا"
+  },
+  "withdrawal": {
+    "title": "السحب",
+    "totalBalance": "الرصيد الإجمالي",
+    "notice": "ستتلقى عملية السحب خلال ساعة",
+    "availableAmount": "المبلغ المتاح",
+    "freezeAmount": "المبلغ المجمّد",
+    "withdrawAmount": "مبلغ السحب",
+    "withdrawAccount": "حساب السحب",
+    "transactionPassword": "كلمة مرور المعاملة",
+    "all": "الكل",
+    "history": "السجل"
+  },
+  "history": {
+    "title": "السجل",
+    "all": "الكل",
+    "reviewing": "قيد المراجعة",
+    "success": "ناجح",
+    "reject": "مرفوض",
+    "noMoreData": "لا توجد بيانات إضافية",
+    "loading": "جارٍ التحميل...",
+    "orderId": "رقم طلب السحب",
+    "money": "مبلغ السحب",
+    "createTime": "وقت السحب",
+    "walletType": "نوع المحفظة",
+    "walletAddress": "عنوان المحفظة",
+    "statusDesc": "الحالة",
+    "remark": "ملاحظة المراجعة"
+  },
+  "deposit": {
+    "title": "الإيداع",
+    "availableBalance": "الرصيد المتاح",
+    "totalBalance": "الرصيد الإجمالي",
+    "topUp": "إيداع",
+    "rechargeRecord": "سجل الإيداع",
+    "fundRecord": "سجل الأموال",
+    "month": "الشهر",
+    "year": "السنة",
+    "monthWord": "الشهر",
+    "backToTop": "إلى الأعلى",
+    "loading": "جارٍ التحميل...",
+    "orderId": "رقم الطلب",
+    "rechargeAmount": "مبلغ الإيداع",
+    "rechargeTime": "وقت الإيداع",
+    "statusLabel": "الحالة",
+    "fundTypeLabel": "النوع",
+    "changeAmount": "مبلغ التغيير",
+    "beforeAmount": "المبلغ قبل التغيير",
+    "afterAmount": "المبلغ بعد التغيير",
+    "fundTime": "الوقت",
+    "fundRemark": "ملاحظة",
+    "status": {
+      "pending": "قيد الانتظار",
+      "recharged": "تم الإيداع"
+    },
+    "fundType": {
+      "commission": "عمولة",
+      "recharge": "إيداع",
+      "pay": "دفع",
+      "commissionReturn": "إرجاع عمولة",
+      "withdraw": "سحب",
+      "withdrawFailed": "فشل السحب"
+    },
+    "recentActivity": "النشاط الأخير",
+    "transactionActivity": "نشاط المعاملات"
+  },
+  "account": {
+    "title": "معلومات الحساب",
+    "myProfile": "ملفي الشخصي",
+    "avatar": "الصورة الشخصية",
+    "uploadAvatar": "رفع الصورة",
+    "uploadingAvatar": "جارٍ الرفع...",
+    "avatarUploadSuccess": "تم رفع الصورة بنجاح",
+    "updatePassword": "تحديث كلمة المرور",
+    "updateTransactionPassword": "تحديث كلمة مرور المعاملة"
+  },
+  "password": {
+    "title": "تحديث كلمة المرور",
+    "title1": "تحديث كلمة مرور المعاملة",
+    "oldPassword": "كلمة المرور القديمة",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+    "update": "تحديث",
+    "updating": "جارٍ التحديث...",
+    "requiredError": "يرجى ملء جميع حقول كلمة المرور",
+    "mismatchError": "كلمتا المرور الجديدتان غير متطابقتين",
+    "updateSuccess": "تم تحديث كلمة المرور بنجاح"
+  },
+  "wallet": {
+    "title": "ربط المحفظة",
+    "selectCurrency": "اختر العملة",
+    "walletAddress": "عنوان المحفظة",
+    "network": "الشبكة",
+    "bindNow": "اربط الآن",
+    "binding": "جارٍ الإرسال...",
+    "bindSuccess": "تم حفظ المحفظة بنجاح",
+    "addressRequired": "يرجى إدخال عنوان المحفظة",
+    "placeholderAddress": "أدخل عنوان محفظتك",
+    "placeholderNetwork": "اختر الشبكة"
+  },
+  "logout": {
+    "title": "عذرًا!",
+    "confirmMessage": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    "logoutNow": "تسجيل الخروج الآن"
+  },
+  "notice": {
+    "read": "مقروء",
+    "unread": "غير مقروء"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "お問い合わせ",
+    "home": "ホーム",
+    "starting": "開始",
+    "records": "記録",
+    "profile": "プロフィール",
+    "logout": "ログアウト",
+    "cancel": "キャンセル",
+    "submit": "送信",
+    "usd": "USD"
+  },
+  "home": {
+    "reviews": "Clutchレビュー 38件",
+    "heroTitle": "私たちはECブランドとストアを構築します",
+    "heroSubtitle": "訪問者を顧客に変える体験を設計します。",
+    "ourProjects": "私たちのプロジェクト",
+    "menu": {
+      "vip": "VIP",
+      "activity": "アクティビティ",
+      "withdrawal": "出金",
+      "deposit": "入金",
+      "tc": "利用規約",
+      "certificate": "証明書",
+      "faqs": "よくある質問",
+      "about": "会社情報"
+    }
+  },
+  "auth": {
+    "signInTitle": "ログイン",
+    "signUpTitle": "新規登録",
+    "authSubtitle": "アクセスするにはユーザー名とパスワードを入力してください",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "rememberPassword": "パスワードを記憶する",
+    "noAccount": "まだアカウントがありませんか？",
+    "signUp": "登録する",
+    "cantSignIn": "ログインできませんか？",
+    "contactSupport": "ユーザーサポートに連絡",
+    "phoneNumber": "電話番号を入力",
+    "loginPassword": "ログインパスワード",
+    "confirmPassword": "ログインパスワード確認",
+    "gender": "性別",
+    "male": "男性",
+    "female": "女性",
+    "inviteCode": "招待コード",
+    "acceptOurs": "当社の",
+    "termsConditions": "利用規約",
+    "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+    "signIn": "ログイン",
+    "agreeToTerms": "登録することで、当社の以下に同意したことになります"
+  },
+  "starting": {
+    "hello": "こんにちは、",
+    "startNow": "今すぐ開始 ({{completed}} / {{total}})",
+    "grabbing": "取得中...",
+    "todayCommission": "本日のコミッション",
+    "commissionDesc": "表示額は本日獲得したコミッションを反映しています。",
+    "balance": "残高",
+    "balanceDesc": "総残高は入金額と獲得コミッションを反映しています。",
+    "holdAmount": "保留額",
+    "holdDesc": "ご不明点はサポートへお問い合わせください",
+    "luckyBonus": "特別ラッキーボーナス",
+    "importantNotice": "重要なお知らせ",
+    "supportHours": "オンラインサポート時間 10:00AM - 11:00PM EST",
+    "supportAssistance": "サポートが必要な場合はオンラインサポートへご連絡ください",
+    "marqueeText": "Dazzeへようこそ！今すぐ始めて、各注文でコミッションを獲得しましょう。新しいVIPレベルが利用可能です！",
+    "modal": {
+      "title": "商品情報",
+      "price": "価格",
+      "commission": "コミッション",
+      "confirm": "購入を確定",
+      "cancel": "キャンセル"
+    }
+  },
+  "records": {
+    "title": "記録",
+    "tabs": {
+      "all": "すべて",
+      "pending": "保留中",
+      "completed": "完了",
+      "ack": "確認"
+    },
+    "totalAmount": "合計金額",
+    "profit": "利益",
+    "noRecords": "記録が見つかりません"
+  },
+  "profile": {
+    "title": "マイプロフィール",
+    "editImage": "プロフィール画像を編集",
+    "referralCode": "私の紹介コード",
+    "copySuccess": "コピーしました",
+    "creditScore": "信用スコア",
+    "todayProfit": "本日の利益",
+    "totalBalance": "総残高",
+    "sections": {
+      "myProfile": "マイプロフィール",
+      "accountInfo": "アカウント情報",
+      "bindWallet": "ウォレット連携",
+      "myFinancial": "財務情報",
+      "deposit": "入金",
+      "withdraw": "出金",
+      "other": "その他",
+      "notifications": "通知",
+      "changeLanguage": "言語を変更"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "VIPレベル",
+    "current": "現在",
+    "orAbove": "以上",
+    "benefit1": "通常商品で {{percent}}% の利益",
+    "benefit2": "プレミアム商品で {{percent}}% の利益",
+    "benefit3": "1日最大 {{count}} 件の注文"
+  },
+  "withdrawal": {
+    "title": "出金",
+    "totalBalance": "総残高",
+    "notice": "出金は1時間以内に反映されます",
+    "availableAmount": "利用可能額",
+    "freezeAmount": "凍結額",
+    "withdrawAmount": "出金額",
+    "withdrawAccount": "出金アカウント",
+    "transactionPassword": "取引パスワード",
+    "all": "すべて",
+    "history": "履歴"
+  },
+  "history": {
+    "title": "履歴",
+    "all": "すべて",
+    "reviewing": "審査中",
+    "success": "成功",
+    "reject": "却下",
+    "noMoreData": "これ以上データはありません",
+    "loading": "読み込み中...",
+    "orderId": "出金注文番号",
+    "money": "出金金額",
+    "createTime": "出金時間",
+    "walletType": "ウォレット種別",
+    "walletAddress": "ウォレットアドレス",
+    "statusDesc": "ステータス",
+    "remark": "審査備考"
+  },
+  "deposit": {
+    "title": "入金",
+    "availableBalance": "利用可能残高",
+    "totalBalance": "総残高",
+    "topUp": "チャージ",
+    "rechargeRecord": "チャージ履歴",
+    "fundRecord": "資金履歴",
+    "month": "月",
+    "year": "年",
+    "monthWord": "月",
+    "backToTop": "上へ",
+    "loading": "読み込み中...",
+    "orderId": "注文番号",
+    "rechargeAmount": "チャージ金額",
+    "rechargeTime": "チャージ時間",
+    "statusLabel": "ステータス",
+    "fundTypeLabel": "種別",
+    "changeAmount": "変動金額",
+    "beforeAmount": "変動前金額",
+    "afterAmount": "変動後金額",
+    "fundTime": "時間",
+    "fundRemark": "備考",
+    "status": {
+      "pending": "保留中",
+      "recharged": "チャージ済み"
+    },
+    "fundType": {
+      "commission": "コミッション",
+      "recharge": "チャージ",
+      "pay": "支払い",
+      "commissionReturn": "コミッション返還",
+      "withdraw": "出金",
+      "withdrawFailed": "出金失敗"
+    },
+    "recentActivity": "最近のアクティビティ",
+    "transactionActivity": "取引アクティビティ"
+  },
+  "account": {
+    "title": "アカウント情報",
+    "myProfile": "マイプロフィール",
+    "avatar": "アバター",
+    "uploadAvatar": "アバターをアップロード",
+    "uploadingAvatar": "アップロード中...",
+    "avatarUploadSuccess": "アバターのアップロードに成功しました",
+    "updatePassword": "パスワードを更新",
+    "updateTransactionPassword": "取引パスワードを更新"
+  },
+  "password": {
+    "title": "パスワード更新",
+    "title1": "取引パスワード更新",
+    "oldPassword": "旧パスワード",
+    "newPassword": "新パスワード",
+    "confirmNewPassword": "新パスワード確認",
+    "update": "更新",
+    "updating": "更新中...",
+    "requiredError": "すべてのパスワード項目を入力してください",
+    "mismatchError": "新しいパスワードが一致しません",
+    "updateSuccess": "パスワードを更新しました"
+  },
+  "wallet": {
+    "title": "ウォレット連携",
+    "selectCurrency": "通貨を選択",
+    "walletAddress": "ウォレットアドレス",
+    "network": "ネットワーク",
+    "bindNow": "今すぐ連携",
+    "binding": "送信中...",
+    "bindSuccess": "ウォレットを保存しました",
+    "addressRequired": "ウォレットアドレスを入力してください",
+    "placeholderAddress": "ウォレットアドレスを入力してください",
+    "placeholderNetwork": "ネットワークを選択してください"
+  },
+  "logout": {
+    "title": "おっと！",
+    "confirmMessage": "本当にログアウトしますか？",
+    "logoutNow": "今すぐログアウト"
+  },
+  "notice": {
+    "read": "既読",
+    "unread": "未読"
+  }
+}

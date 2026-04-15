@@ -1,0 +1,226 @@
+{
+  "common": {
+    "contact": "Contacto",
+    "home": "Inicio",
+    "starting": "Comenzar",
+    "records": "Registros",
+    "profile": "Perfil",
+    "logout": "Cerrar sesión",
+    "cancel": "Cancelar",
+    "submit": "Enviar",
+    "usd": "USD"
+  },
+  "home": {
+    "reviews": "38 reseñas de Clutch",
+    "heroTitle": "Construimos marcas y tiendas de comercio electrónico",
+    "heroSubtitle": "Diseñamos experiencias que convierten visitantes en clientes.",
+    "ourProjects": "NUESTROS PROYECTOS",
+    "menu": {
+      "vip": "VIP",
+      "activity": "Actividad",
+      "withdrawal": "Retiro",
+      "deposit": "Depósito",
+      "tc": "Términos y condiciones",
+      "certificate": "Certificado",
+      "faqs": "Preguntas frecuentes",
+      "about": "Acerca de"
+    }
+  },
+  "auth": {
+    "signInTitle": "Iniciar sesión",
+    "signUpTitle": "REGISTRARSE",
+    "authSubtitle": "Ingresa tu usuario y contraseña para acceder",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "rememberPassword": "Recordar contraseña",
+    "noAccount": "¿Aún no tienes una cuenta?",
+    "signUp": "Registrarse",
+    "cantSignIn": "¿No puedes iniciar sesión?",
+    "contactSupport": "Contactar soporte al usuario",
+    "phoneNumber": "Ingresa un número de teléfono",
+    "loginPassword": "Contraseña de inicio de sesión",
+    "confirmPassword": "Confirmar contraseña de inicio de sesión",
+    "gender": "Género",
+    "male": "Hombre",
+    "female": "Mujer",
+    "inviteCode": "Código de invitación",
+    "acceptOurs": "Aceptar nuestros",
+    "termsConditions": "Términos y condiciones",
+    "alreadyHaveAccount": "¿Ya tienes una cuenta?",
+    "signIn": "Iniciar sesión",
+    "agreeToTerms": "Al registrarte, aceptas nuestros"
+  },
+  "starting": {
+    "hello": "Hola,",
+    "startNow": "EMPEZAR AHORA ({{completed}} / {{total}})",
+    "grabbing": "Obteniendo...",
+    "todayCommission": "COMISIÓN DE HOY",
+    "commissionDesc": "El monto mostrado refleja las comisiones ganadas hoy.",
+    "balance": "SALDO",
+    "balanceDesc": "El saldo total refleja tanto el depósito como las comisiones ganadas.",
+    "holdAmount": "MONTO RETENIDO",
+    "holdDesc": "Contacta al soporte para consultas",
+    "luckyBonus": "Bono especial de suerte",
+    "importantNotice": "Aviso importante",
+    "supportHours": "Horario de soporte en línea 10:00AM - 11:00PM EST",
+    "supportAssistance": "Por favor contacta al soporte en línea para recibir ayuda",
+    "marqueeText": "¡Bienvenido a Dazze! Comienza tu viaje ahora y gana comisiones con cada pedido. ¡Nuevos niveles VIP disponibles!",
+    "modal": {
+      "title": "Información del producto",
+      "price": "Precio",
+      "commission": "Comisión",
+      "confirm": "Confirmar compra",
+      "cancel": "Cancelar"
+    }
+  },
+  "records": {
+    "title": "Registros",
+    "tabs": {
+      "all": "Todo",
+      "pending": "Pendiente",
+      "completed": "Completado",
+      "ack": "Confirmar"
+    },
+    "totalAmount": "Monto total",
+    "profit": "Ganancia",
+    "noRecords": "No se encontraron registros"
+  },
+  "profile": {
+    "title": "Mi perfil",
+    "editImage": "Editar imagen de perfil",
+    "referralCode": "Mi código de referido",
+    "copySuccess": "Copiado correctamente",
+    "creditScore": "Puntuación de crédito",
+    "todayProfit": "Ganancia de hoy",
+    "totalBalance": "Saldo total",
+    "sections": {
+      "myProfile": "Mi perfil",
+      "accountInfo": "Información de cuenta",
+      "bindWallet": "Vincular billetera",
+      "myFinancial": "Mis finanzas",
+      "deposit": "Depósito",
+      "withdraw": "Retirar",
+      "other": "Otros",
+      "notifications": "Notificaciones",
+      "changeLanguage": "Cambiar idioma"
+    },
+    "copyright": "© 2026 Dazze Studio LTD."
+  },
+  "vip": {
+    "title": "Niveles VIP",
+    "current": "ACTUAL",
+    "orAbove": "o superior",
+    "benefit1": "{{percent}}% de ganancia en productos normales",
+    "benefit2": "{{percent}}% de ganancia en productos premium",
+    "benefit3": "Máximo {{count}} pedidos de producto por día"
+  },
+  "withdrawal": {
+    "title": "Retiro",
+    "totalBalance": "Saldo total",
+    "notice": "Recibirás tu retiro dentro de una hora",
+    "availableAmount": "Monto disponible",
+    "freezeAmount": "Monto congelado",
+    "withdrawAmount": "Monto de retiro",
+    "withdrawAccount": "Cuenta de retiro",
+    "transactionPassword": "Contraseña de transacción",
+    "all": "TODO",
+    "history": "Historial"
+  },
+  "history": {
+    "title": "Historial",
+    "all": "Todo",
+    "reviewing": "En revisión",
+    "success": "Éxito",
+    "reject": "Rechazado",
+    "noMoreData": "No hay más datos",
+    "loading": "Cargando...",
+    "orderId": "ID de orden de retiro",
+    "money": "Monto de retiro",
+    "createTime": "Hora de retiro",
+    "walletType": "Tipo de billetera",
+    "walletAddress": "Dirección de billetera",
+    "statusDesc": "Estado",
+    "remark": "Motivo de revisión"
+  },
+  "deposit": {
+    "title": "Depósito",
+    "availableBalance": "Saldo disponible",
+    "totalBalance": "Saldo total",
+    "topUp": "RECARGAR",
+    "rechargeRecord": "Registro de recarga",
+    "fundRecord": "Registro de fondos",
+    "month": "Mes",
+    "year": "Año",
+    "monthWord": "Mes",
+    "backToTop": "Arriba",
+    "loading": "Cargando...",
+    "orderId": "ID de orden",
+    "rechargeAmount": "Monto de recarga",
+    "rechargeTime": "Hora de recarga",
+    "statusLabel": "Estado",
+    "fundTypeLabel": "Tipo",
+    "changeAmount": "Monto de cambio",
+    "beforeAmount": "Monto antes del cambio",
+    "afterAmount": "Monto después del cambio",
+    "fundTime": "Hora",
+    "fundRemark": "Observación",
+    "status": {
+      "pending": "Pendiente",
+      "recharged": "Recargado"
+    },
+    "fundType": {
+      "commission": "Comisión",
+      "recharge": "Recarga",
+      "pay": "Pago",
+      "commissionReturn": "Devolución de comisión",
+      "withdraw": "Retiro",
+      "withdrawFailed": "Retiro fallido"
+    },
+    "recentActivity": "Actividad reciente",
+    "transactionActivity": "Actividad de transacciones"
+  },
+  "account": {
+    "title": "Información de cuenta",
+    "myProfile": "Mi perfil",
+    "avatar": "Avatar",
+    "uploadAvatar": "Subir avatar",
+    "uploadingAvatar": "Subiendo...",
+    "avatarUploadSuccess": "Avatar subido correctamente",
+    "updatePassword": "Actualizar contraseña",
+    "updateTransactionPassword": "Actualizar contraseña de transacción"
+  },
+  "password": {
+    "title": "Actualizar contraseña",
+    "title1": "Actualizar contraseña de transacción",
+    "oldPassword": "Contraseña anterior",
+    "newPassword": "Nueva contraseña",
+    "confirmNewPassword": "Confirmar nueva contraseña",
+    "update": "Actualizar",
+    "updating": "Actualizando...",
+    "requiredError": "Completa todos los campos de contraseña",
+    "mismatchError": "Las dos contraseñas nuevas no coinciden",
+    "updateSuccess": "Contraseña actualizada correctamente"
+  },
+  "wallet": {
+    "title": "Vincular billetera",
+    "selectCurrency": "Seleccionar moneda",
+    "walletAddress": "Dirección de billetera",
+    "network": "Red",
+    "bindNow": "Vincular ahora",
+    "binding": "Enviando...",
+    "bindSuccess": "Billetera guardada correctamente",
+    "addressRequired": "Ingresa la dirección de billetera",
+    "placeholderAddress": "Ingresa tu dirección de billetera",
+    "placeholderNetwork": "Selecciona red"
+  },
+  "logout": {
+    "title": "¡UPS!",
+    "confirmMessage": "¿Seguro que deseas cerrar sesión?",
+    "logoutNow": "CERRAR SESIÓN AHORA"
+  },
+  "notice": {
+    "read": "Leído",
+    "unread": "No leído"
+  }
+}
