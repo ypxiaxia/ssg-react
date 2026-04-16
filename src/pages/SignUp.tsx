@@ -65,12 +65,22 @@ export default function SignUp() {
     e.preventDefault();
 
     if (!phone) {
-      alert('请输入手机号');
+      Swal.fire({
+        text: t('auth.phoneNumberRequired'),
+        icon: 'error',
+        confirmButtonColor: '#000000',
+        confirmButtonText: t('common.submit'),
+      });
       return;
     }
 
     if (password !== confirmPassword) {
-      alert('两次输入的密码不一致');
+      Swal.fire({
+        text: t('auth.passwordMismatch'),
+        icon: 'error',
+        confirmButtonColor: '#000000',
+        confirmButtonText: t('common.submit'),
+      });
       return;
     }
 
@@ -139,17 +149,17 @@ export default function SignUp() {
           required
         />
         <AuthInput
-          placeholder={t('auth.loginPassword')}
-          isPassword
-          value={payPassword}
-          onChange={(e) => setPayPassword(e.target.value)}
-          required
-        />
-        <AuthInput
           placeholder={t('auth.confirmPassword')}
           isPassword
           value={confirmPassword}
           onChange={(e) => setConfirmPassword(e.target.value)}
+          required
+        />
+        <AuthInput
+          placeholder={t('auth.payPassword')}
+          isPassword
+          value={payPassword}
+          onChange={(e) => setPayPassword(e.target.value)}
           required
         />
 

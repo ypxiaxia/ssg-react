@@ -49,7 +49,11 @@
     "termsConditions": "利用規約",
     "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
     "signIn": "ログイン",
-    "agreeToTerms": "登録することで、当社の以下に同意したことになります"
+    "agreeToTerms": "登録することで、当社の以下に同意したことになります",
+    "payPassword": "パスワード",
+    "confirmPayPassword": "確認パスワード",
+    "phoneNumberRequired": "電話番号を入力してください",
+    "passwordMismatch": "新しいパスワードが一致しません"
   },
   "starting": {
     "hello": "こんにちは、",

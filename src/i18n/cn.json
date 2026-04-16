@@ -49,7 +49,11 @@
     "termsConditions": "条款与条件",
     "alreadyHaveAccount": "已有账号？",
     "signIn": "立即登录",
-    "agreeToTerms": "注册即表示您同意我们的"
+    "agreeToTerms": "注册即表示您同意我们的",
+    "payPassword": "支付密码",
+    "confirmPayPassword": "确认支付密码",
+    "phoneNumberRequired": "请输入手机号码",
+    "passwordMismatch": "两次输入的密码不一致"
   },
   "starting": {
     "hello": "您好，",

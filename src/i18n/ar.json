@@ -49,7 +49,11 @@
     "termsConditions": "الشروط والأحكام",
     "alreadyHaveAccount": "لديك حساب بالفعل؟",
     "signIn": "تسجيل الدخول",
-    "agreeToTerms": "بالتسجيل فأنت توافق على"
+    "agreeToTerms": "بالتسجيل فأنت توافق على",
+    "payPassword": "كلمة مرور الدفع",
+    "confirmPayPassword": "تأكيد كلمة مرور الدفع",
+    "phoneNumberRequired": "يرجى إدخال رقم الهاتف",
+    "passwordMismatch": "كلمتا المرور الجديدتان غير متطابقتين"
   },
   "starting": {
     "hello": "مرحبًا،",

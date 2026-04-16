@@ -49,7 +49,11 @@
     "termsConditions": "Termini e condizioni",
     "alreadyHaveAccount": "Hai già un account?",
     "signIn": "Accedi",
-    "agreeToTerms": "Registrandoti, accetti i nostri"
+    "agreeToTerms": "Registrandoti, accetti i nostri",
+    "payPassword": "Password di pagamento",
+    "confirmPayPassword": "Conferma password di pagamento",
+    "phoneNumberRequired": "Inserisci un numero di telefono",
+    "passwordMismatch": "Le due password non coincidono"
   },
   "starting": {
     "hello": "Ciao,",
