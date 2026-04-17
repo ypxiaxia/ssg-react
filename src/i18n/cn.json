@@ -53,6 +53,7 @@
     "payPassword": "支付密码",
     "confirmPayPassword": "确认支付密码",
     "phoneNumberRequired": "请输入手机号码",
+    "phoneNumberInvalid": "请输入所选国家/地区的有效手机号",
     "passwordMismatch": "两次输入的密码不一致"
   },
   "starting": {

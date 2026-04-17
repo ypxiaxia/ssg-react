@@ -53,6 +53,7 @@
     "payPassword": "Pay Password",
     "confirmPayPassword": "Confirm Pay Password",
     "phoneNumberRequired": "Please enter your phone number",
+    "phoneNumberInvalid": "Please enter a valid phone number for the selected country",
     "passwordMismatch": "The two passwords do not match"
   },
   "starting": {

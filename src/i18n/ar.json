@@ -53,6 +53,7 @@
     "payPassword": "كلمة مرور الدفع",
     "confirmPayPassword": "تأكيد كلمة مرور الدفع",
     "phoneNumberRequired": "يرجى إدخال رقم الهاتف",
+    "phoneNumberInvalid": "يرجى إدخال رقم هاتف صالح للدولة المحددة",
     "passwordMismatch": "كلمتا المرور الجديدتان غير متطابقتين"
   },
   "starting": {

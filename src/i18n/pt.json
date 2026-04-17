@@ -53,6 +53,7 @@
     "payPassword": "Senha de pagamento",
     "confirmPayPassword": "Confirmar senha de pagamento",
     "phoneNumberRequired": "Digite um número de telefone",
+    "phoneNumberInvalid": "Digite um número de telefone válido para o país selecionado",
     "passwordMismatch": "As duas senhas não coincidem"
   },
   "starting": {

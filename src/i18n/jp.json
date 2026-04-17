@@ -53,6 +53,7 @@
     "payPassword": "パスワード",
     "confirmPayPassword": "確認パスワード",
     "phoneNumberRequired": "電話番号を入力してください",
+    "phoneNumberInvalid": "選択した国に有効な電話番号を入力してください",
     "passwordMismatch": "新しいパスワードが一致しません"
   },
   "starting": {

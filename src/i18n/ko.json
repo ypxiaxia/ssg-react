@@ -53,6 +53,7 @@
     "payPassword": "비밀번호",
     "confirmPayPassword": "확인 비밀번호",
     "phoneNumberRequired": "전화번호를 입력하세요",
+    "phoneNumberInvalid": "선택한 국가에 맞는 유효한 전화번호를 입력하세요",
     "passwordMismatch": "두 비밀번호가 일치하지 않습니다"
   },
   "starting": {

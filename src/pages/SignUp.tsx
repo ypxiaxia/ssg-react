@@ -5,6 +5,7 @@ import AuthButton from '../components/AuthButton';
 import { useTranslation } from 'react-i18next';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
+import { isValidPhoneNumber } from 'libphonenumber-js';
 import api from '../services/api';
 import qs from 'qs';
 import { useAuthStore } from '../store/useAuthStore';
@@ -74,6 +75,17 @@ export default function SignUp() {
       return;
     }
 
+    const normalizedPhone = `+${phone.replace(/\D/g, '')}`;
+    if (!isValidPhoneNumber(normalizedPhone)) {
+      Swal.fire({
+        text: t('auth.phoneNumberInvalid'),
+        icon: 'error',
+        confirmButtonColor: '#000000',
+        confirmButtonText: t('common.submit'),
+      });
+      return;
+    }
+
     if (password !== confirmPassword) {
       Swal.fire({
         text: t('auth.passwordMismatch'),
@@ -88,7 +100,7 @@ export default function SignUp() {
 
     const data = qs.stringify({
       username,
-      mobile: `+${phone.replace(/^\+/, '')}`,
+      mobile: normalizedPhone,
       password,
       repassword: confirmPassword,
       paypwd: payPassword,
@@ -132,12 +144,21 @@ export default function SignUp() {
             country="us"
             value={phone}
             onChange={(value) => setPhone(value)}
+            isValid={(value, country) => {
+              if (!value) return true;
+              const dialCode = country?.dialCode || '';
+              const digits = String(value).replace(/\D/g, '');
+              if (!digits || !dialCode) return false;
+              if (!digits.startsWith(dialCode)) return false;
+              return isValidPhoneNumber(`+${digits}`);
+            }}
             enableSearch
             placeholder={t('auth.phoneNumber')}
             containerClass="!w-full"
             inputClass="!w-full !h-[58px] !pl-18 !pr-6 !text-base !border !border-gray-200 !rounded-2xl !shadow-none focus:!ring-1 focus:!ring-black"
             buttonClass="!border-0 !bg-transparent !pl-4"
             dropdownClass="!max-h-72 !text-sm"
+            countryCodeEditable={false}
           />
         </div>
 
