@@ -261,20 +261,6 @@ export default function Deposit() {
           <label className="text-sm font-bold block mb-2">{t('deposit.month')}</label>
           <div className="grid grid-cols-2 gap-3">
             <div>
-              <label className="text-xs text-gray-500 font-medium block mb-1">{t('deposit.year')}</label>
-              <select
-                value={selectedYear}
-                onChange={(e) => setSelectedYear(e.target.value)}
-                className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm font-medium"
-              >
-                {yearOptions.map((year) => (
-                  <option key={year} value={year}>
-                    {year}
-                  </option>
-                ))}
-              </select>
-            </div>
-            <div>
               <label className="text-xs text-gray-500 font-medium block mb-1">{t('deposit.monthWord')}</label>
               <select
                 value={selectedMonthNum}
@@ -284,6 +270,20 @@ export default function Deposit() {
                 {monthOptions.map((month) => (
                   <option key={month} value={month}>
                     {month}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="text-xs text-gray-500 font-medium block mb-1">{t('deposit.year')}</label>
+              <select
+                value={selectedYear}
+                onChange={(e) => setSelectedYear(e.target.value)}
+                className="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm font-medium"
+              >
+                {yearOptions.map((year) => (
+                  <option key={year} value={year}>
+                    {year}
                   </option>
                 ))}
               </select>
