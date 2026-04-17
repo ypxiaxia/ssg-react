@@ -81,7 +81,7 @@ export default function Deposit() {
   const formatFundNumber = (value: number | string) => {
     const num = Number(value || 0);
     if (Number.isNaN(num)) return '0.0000';
-    return num.toFixed(4);
+    return num.toFixed(2);
   };
 
   const formatFundTime = (value: number | string) => {
@@ -332,17 +332,12 @@ export default function Deposit() {
           ) : (
             <div className="space-y-4">
               {fundList.map((item) => {
-                const beforeAmount = Number(item.user_money || 0);
-                const changeAmount = Number(item.money || 0);
-                const afterAmount = beforeAmount - changeAmount;
-
                 return (
                   <div key={item.id} className="border border-gray-200 rounded-2xl p-4 shadow-sm">
                     <div className="space-y-2 text-sm">
                       <p><span className="font-bold">{t('deposit.fundTypeLabel')}：</span>{getFundTypeText(item.type)}</p>
-                      <p><span className="font-bold">{t('deposit.changeAmount')}：</span>{formatFundNumber(changeAmount)}</p>
-                      <p><span className="font-bold">{t('deposit.beforeAmount')}：</span>{formatFundNumber(beforeAmount)}</p>
-                      <p><span className="font-bold">{t('deposit.afterAmount')}：</span>{formatFundNumber(afterAmount)}</p>
+                      <p><span className="font-bold">{t('deposit.changeAmount')}：</span>{item.money}</p>
+                      <p><span className="font-bold">{t('deposit.afterAmount')}：</span>{item.user_money}</p>
                       <p><span className="font-bold">{t('deposit.fundTime')}：</span>{formatFundTime(item.create_time)}</p>
                     </div>
                   </div>

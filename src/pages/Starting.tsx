@@ -45,29 +45,33 @@ export default function Starting() {
   const [grabbedOrder, setGrabbedOrder] = useState<any | null>(null);
   const [confirmingOrder, setConfirmingOrder] = useState(false);
 
+  const refreshStartingData = async () => {
+    const res = await api.get('/good/index');
+    const info = res?.data || {};
+    const goods = Array.isArray(info.goods) ? info.goods : [];
+    const mapped: ProductItem[] = goods.map((item: any) => ({
+      id: Number(item.goods_id),
+      name: item.goods_name || '',
+      price: item.retail_price || '0.00',
+      image: item.pic || '',
+      rating: Number(item.star_rating || 0),
+    }));
+    setProducts(mapped);
+    setStartingInfo({
+      userName: info.user_name || '...',
+      levelId: Number(info.level_id) || 1,
+      userMoney: info.user_money || 0,
+      todayCommission: info.today_yj ?? info.yj ?? 0,
+      freezeMoney: info.freeze_money ?? 0,
+      completed: Number(info.completed) || 0,
+      total: Number(info.total) || 0,
+    });
+  };
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await api.get('/good/index');
-        const info = res?.data || {};
-        const goods = Array.isArray(info.goods) ? info.goods : [];
-        const mapped: ProductItem[] = goods.map((item: any) => ({
-          id: Number(item.goods_id),
-          name: item.goods_name || '',
-          price: item.retail_price || '0.00',
-          image: item.pic || '',
-          rating: Number(item.star_rating || 0),
-        }));
-        setProducts(mapped);
-        setStartingInfo({
-          userName: info.user_name || '...',
-          levelId: Number(info.level_id) || 1,
-          userMoney: info.user_money || 0,
-          todayCommission: info.today_yj ?? info.yj ?? 0,
-          freezeMoney: info.freeze_money ?? 0,
-          completed: Number(info.completed) || 0,
-          total: Number(info.total) || 0,
-        });
+        await refreshStartingData();
       } catch (error) {
         setProducts([]);
         setStartingInfo((prev) => ({
@@ -130,30 +134,15 @@ export default function Starting() {
       setConfirmingOrder(true);
       await api.post('/good/topay', data);
       await api.post('/good/repurchase', data);
-      const refreshed = await api.get('/good/index');
-      const info = refreshed?.data || {};
-      const goods = Array.isArray(info.goods) ? info.goods : [];
-      const mapped: ProductItem[] = goods.map((item: any) => ({
-        id: Number(item.goods_id),
-        name: item.goods_name || '',
-        price: item.retail_price || '0.00',
-        image: item.pic || '',
-        rating: Number(item.star_rating || 0),
-      }));
-      setProducts(mapped);
-      setStartingInfo({
-        userName: info.user_name || '...',
-        levelId: Number(info.level_id) || 1,
-        userMoney: info.user_money || 0,
-        todayCommission: info.today_yj ?? info.yj ?? 0,
-        freezeMoney: info.freeze_money ?? 0,
-        completed: Number(info.completed) || 0,
-        total: Number(info.total) || 0,
-      });
       setShowModal(false);
     } catch (error) {
       // Error modal is handled by api interceptor.
     } finally {
+      try {
+        await refreshStartingData();
+      } catch (error) {
+        // Error modal is handled by api interceptor.
+      }
       setConfirmingOrder(false);
     }
   };

@@ -45,7 +45,6 @@ api.interceptors.response.use(
       }
 
       Swal.fire({
-        title: 'Error',
         text: errorMsg,
         icon: 'error',
         confirmButtonColor: '#000000',
@@ -63,7 +62,6 @@ api.interceptors.response.use(
     const errorMsg = error.response?.data?.msg || error.message || 'Network Error';
     
     Swal.fire({
-      title: 'Network Error',
       text: errorMsg,
       icon: 'error',
       confirmButtonColor: '#000000',

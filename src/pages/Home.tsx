@@ -46,12 +46,9 @@ export default function Home() {
 
         {/* Action Button */}
         <div className="flex justify-center mb-10">
-          <motion.button
-            whileTap={{ scale: 0.95 }}
-            className="bg-black text-white px-10 py-4 rounded-xl font-bold text-xl tracking-wide"
-          >
+          <button className="bg-black text-white px-10 py-4 rounded-xl font-bold text-xl tracking-wide">
             {t('home.ourProjects')}
-          </motion.button>
+          </button>
         </div>
 
 
