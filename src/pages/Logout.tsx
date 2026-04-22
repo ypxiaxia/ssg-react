@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { useAuthStore } from '../store/useAuthStore';
-import logoutImage from '../assets/LogOut.png';
+import logoutImage from '../assets/logOut.png';
 
 export default function Logout() {
   const navigate = useNavigate();
