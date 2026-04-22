@@ -1,12 +1,25 @@
+import { useEffect, useState } from 'react';
 import { Star, LayoutGrid, Calendar, ArrowUpCircle, Wallet, FileText, Award, MessageCircle, Info } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import BottomNav from '../components/BottomNav';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
+import homeVideo from '../assets/home.mp4';
+import HomeAdModal from '../model/HomeAdModal';
 
 export default function Home() {
   const { t } = useTranslation();
+  const [showAdModal, setShowAdModal] = useState(false);
+  const homeAdImage = new URL('../assets/home1.jpg', import.meta.url).href;
+
+  useEffect(() => {
+    const needShowAd = sessionStorage.getItem('show-home-ad-after-login') === '1';
+    if (needShowAd) {
+      setShowAdModal(true);
+      sessionStorage.removeItem('show-home-ad-after-login');
+    }
+  }, []);
 
   const MENU_ITEMS = [
     { icon: LayoutGrid, label: t('home.menu.vip'), color: 'bg-black' },
@@ -22,6 +35,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white pb-24">
       <Header />
+      <HomeAdModal open={showAdModal} imageSrc={homeAdImage} onClose={() => setShowAdModal(false)} />
       
       <main className="px-6 pt-8">
         {/* Reviews */}
@@ -55,7 +69,7 @@ export default function Home() {
         {/* Hero Media */}
         <div className="rounded-2xl overflow-hidden mb-10 shadow-lg">
           <video
-            src="/home.mp4"
+            src={homeVideo}
             className="w-full h-auto object-cover"
             autoPlay
             loop

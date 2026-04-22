@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import { motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
 import { useAuthStore } from '../store/useAuthStore';
+import logoutImage from '../assets/LogOut.png';
 
 export default function Logout() {
   const navigate = useNavigate();
@@ -34,7 +35,7 @@ export default function Logout() {
         {/* Illustration */}
         <div className="w-full max-w-[300px] mb-16">
           <img 
-            src="/logOut1.png" 
+            src={logoutImage} 
             alt="Logout Illustration" 
             className="w-full h-auto grayscale"
             referrerPolicy="no-referrer"

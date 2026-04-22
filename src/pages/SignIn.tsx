@@ -41,6 +41,7 @@ export default function SignIn() {
       // Adjust based on actual response structure
       if (res.data && res.data.token) {
         setAuth(res.data.user || res.data, res.data.token);
+        sessionStorage.setItem('show-home-ad-after-login', '1');
         navigate('/');
       }
     } catch (err) {

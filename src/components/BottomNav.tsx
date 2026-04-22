@@ -11,7 +11,7 @@ export default function BottomNav() {
   const isStarting = location.pathname === '/starting';
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 px-8 py-3 flex items-center justify-between z-50">
+    <nav className="fixed bottom-0 left-1/2 w-full -translate-x-1/2 bg-white border-t border-gray-100 px-8 py-3 flex items-center justify-between z-50 lg:max-w-[820px]">
       <Link to="/" className="flex flex-col items-center gap-1">
         <Home className={`w-6 h-6 ${isHome ? 'text-black' : 'text-gray-400'}`} />
         <span className={`text-xs font-bold ${isHome ? 'text-black' : 'text-gray-400'}`}>{t('common.home')}</span>
