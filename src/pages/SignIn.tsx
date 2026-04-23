@@ -15,8 +15,8 @@ export default function SignIn() {
   const navigate = useNavigate();
   const setAuth = useAuthStore((state) => state.setAuth);
   const kefu = useAuthStore((state) => state.kefu);
-  const [username, setUsername] = useState('meteor');
-  const [password, setPassword] = useState('lx123456..');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
   const handleSupportClick = async () => {
