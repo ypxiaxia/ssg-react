@@ -20,7 +20,7 @@ export default function HomeAdModal({ open, imageSrc, onClose }: HomeAdModalProp
       aria-modal="true"
       aria-label={t('home.adAlt')}
     >
-      <div className="relative w-full max-w-[420px]" onClick={(e) => e.stopPropagation()}>
+      <div className="relative w-full max-w-[620px]" onClick={(e) => e.stopPropagation()}>
         <button
           type="button"
           onClick={onClose}
