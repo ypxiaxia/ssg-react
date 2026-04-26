@@ -85,6 +85,7 @@ interface VipApiItem {
   color: string;
   img: string;
   money: string;
+  money1: string;
 }
 
 export default function VipLevels() {
@@ -114,19 +115,16 @@ export default function VipLevels() {
 
         const mapped = list.map((item, index) => {
           const currentMoney = Number(item.money || 0);
-          const prevMoney = index > 0 ? Number(list[index - 1]?.money || 0) : 0;
-          const isLast = index === list.length - 1;
-          const range = isLast
-            ? `${formatMoney(currentMoney)} ${currency} ${t('vip.orAbove')}`
-            : `${formatMoney(prevMoney)} - ${formatMoney(currentMoney)} ${currency}`;
+          const currentMoney1 = Number(item.money1 || 0);
+          const range = `${formatMoney(currentMoney)} - ${formatMoney(currentMoney1)} ${currency}`;
 
           return {
             levelId: Number(item.level_id) || 0,
             level: item.level_name || `VIP${item.level_id}`,
             range,
             benefits: {
-              percentNormal: String((Number(item.qd_rate || 0) / 1000).toFixed(1)),
-              percentPremium: String((Number(item.co_rate || 0) / 1000).toFixed(1)),
+              percentNormal: String((Number(item.qd_rate || 0) / 10).toFixed(1)),
+              percentPremium: String((Number(item.co_rate || 0) / 10).toFixed(1)),
               maxOrders: String(item.dannum || 0),
             },
             isCurrent: Number(user?.level_id) === Number(item.level_id),
