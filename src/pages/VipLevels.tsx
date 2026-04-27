@@ -121,7 +121,7 @@ export default function VipLevels() {
             range = `${formatMoney(100)} - ${formatMoney(currentMoney1)} ${currency}`
           }
           if (index === list.length - 1) {
-            range = `${formatMoney(currentMoney)} -  ${t('vip.orAbove')}`
+            range = `${formatMoney(currentMoney)} ${t('vip.orAbove')}`
           }
           return {
             levelId: Number(item.level_id) || 0,
