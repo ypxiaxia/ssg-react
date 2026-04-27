@@ -116,8 +116,13 @@ export default function VipLevels() {
         const mapped = list.map((item, index) => {
           const currentMoney = Number(item.money || 0);
           const currentMoney1 = Number(item.money1 || 0);
-          const range = `${formatMoney(currentMoney)} - ${formatMoney(currentMoney1)} ${currency}`;
-
+          let range = `${formatMoney(currentMoney)} - ${formatMoney(currentMoney1)} ${currency}`;
+          if (index === 0) {
+            range = `${formatMoney(100)} - ${formatMoney(currentMoney1)} ${currency}`
+          }
+          if (index === list.length - 1) {
+            range = `${formatMoney(currentMoney)} - ${formatMoney(Infinity)} ${currency}`
+          }
           return {
             levelId: Number(item.level_id) || 0,
             level: item.level_name || `VIP${item.level_id}`,
