@@ -31,6 +31,7 @@ import Contact from './pages/Contact';
 import api from './services/api';
 import i18n from './i18n/config';
 import { useAuthStore } from './store/useAuthStore';
+import CustomerServiceChat from './model/CustomerServiceChat';
 
 export default function App() {
   const setConfig = useAuthStore((state) => state.setConfig);
@@ -91,6 +92,7 @@ export default function App() {
         <Route path="/notice" element={<ProtectedRoute><Notice /></ProtectedRoute>} />
         <Route path="/contact" element={<ProtectedRoute><Contact /></ProtectedRoute>} />
       </Routes>
+      <CustomerServiceChat />
     </Router>
   );
 }

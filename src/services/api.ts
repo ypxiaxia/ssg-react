@@ -39,7 +39,7 @@ api.interceptors.response.use(
       const errorMsg = res.msg || 'An unknown error occurred';
       
       // Handle token expiration or unauthorized access (e.g., code 401)
-      if (res.code === 401) {
+      if (res.code === 401||res.code === -2) {
         useAuthStore.getState().logout();
         window.location.href = '/signin';
       }

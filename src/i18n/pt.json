@@ -10,6 +10,30 @@
     "submit": "Enviar",
     "usd": "USD"
   },
+  "support": {
+    "floatingButton": "Contatar suporte",
+    "title": "Atendimento ao cliente",
+    "online": "Estamos aqui para ajudar",
+    "welcome": "Olá, digite sua pergunta e responderemos o mais rápido possível.",
+    "agent": "Suporte",
+    "startChat": "Toque para iniciar o chat",
+    "noService": "Nenhum atendimento disponível",
+    "placeholder": "Digite uma mensagem...",
+    "send": "Enviar",
+    "connectError": "Falha na conexão com o atendimento. Tente novamente mais tarde.",
+    "uploadImage": "Enviar imagem",
+    "imageMessage": "Mensagem com imagem",
+    "imageTypeError": "Escolha um arquivo de imagem.",
+    "imageSizeError": "O tamanho da imagem não pode exceder 5MB.",
+    "uploadError": "Falha ao enviar imagem. Tente novamente mais tarde.",
+    "status": {
+      "idle": "Pronto para conectar",
+      "connecting": "Conectando...",
+      "connected": "Online",
+      "disconnected": "Desconectado",
+      "error": "Falha na conexão"
+    }
+  },
   "home": {
     "reviews": "38 avaliações no Clutch",
     "heroTitle": "Construímos marcas e lojas de eCommerce",

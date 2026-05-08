@@ -10,6 +10,30 @@
     "submit": "Invia",
     "usd": "USD"
   },
+  "support": {
+    "floatingButton": "Contatta il supporto",
+    "title": "Servizio clienti",
+    "online": "Siamo qui per aiutarti",
+    "welcome": "Ciao, inserisci la tua domanda e risponderemo il prima possibile.",
+    "agent": "Supporto",
+    "startChat": "Tocca per iniziare la chat",
+    "noService": "Nessun servizio clienti disponibile",
+    "placeholder": "Scrivi un messaggio...",
+    "send": "Invia",
+    "connectError": "Connessione al servizio clienti non riuscita. Riprova più tardi.",
+    "uploadImage": "Carica immagine",
+    "imageMessage": "Messaggio immagine",
+    "imageTypeError": "Scegli un file immagine.",
+    "imageSizeError": "La dimensione dell'immagine non può superare 5MB.",
+    "uploadError": "Caricamento immagine non riuscito. Riprova più tardi.",
+    "status": {
+      "idle": "Pronto per la connessione",
+      "connecting": "Connessione...",
+      "connected": "Online",
+      "disconnected": "Disconnesso",
+      "error": "Connessione non riuscita"
+    }
+  },
   "home": {
     "reviews": "38 recensioni su Clutch",
     "heroTitle": "Costruiamo brand e negozi eCommerce",

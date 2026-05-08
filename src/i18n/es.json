@@ -10,6 +10,30 @@
     "submit": "Enviar",
     "usd": "USD"
   },
+  "support": {
+    "floatingButton": "Contactar soporte",
+    "title": "Atención al cliente",
+    "online": "Estamos aquí para ayudarte",
+    "welcome": "Hola, escribe tu pregunta y responderemos lo antes posible.",
+    "agent": "Soporte",
+    "startChat": "Toca para iniciar el chat",
+    "noService": "No hay atención al cliente disponible",
+    "placeholder": "Escribe un mensaje...",
+    "send": "Enviar",
+    "connectError": "Error al conectar con atención al cliente. Inténtalo más tarde.",
+    "uploadImage": "Subir imagen",
+    "imageMessage": "Mensaje de imagen",
+    "imageTypeError": "Elige un archivo de imagen.",
+    "imageSizeError": "La imagen no puede superar 5MB.",
+    "uploadError": "Error al subir la imagen. Inténtalo más tarde.",
+    "status": {
+      "idle": "Listo para conectar",
+      "connecting": "Conectando...",
+      "connected": "En línea",
+      "disconnected": "Desconectado",
+      "error": "Error de conexión"
+    }
+  },
   "home": {
     "reviews": "38 reseñas de Clutch",
     "heroTitle": "Construimos marcas y tiendas de comercio electrónico",

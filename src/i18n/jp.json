@@ -10,6 +10,30 @@
     "submit": "送信",
     "usd": "USD"
   },
+  "support": {
+    "floatingButton": "サポートに連絡",
+    "title": "カスタマーサービス",
+    "online": "いつでもサポートします",
+    "welcome": "こんにちは。ご質問を入力してください。できるだけ早く返信いたします。",
+    "agent": "サポート",
+    "startChat": "タップしてチャットを開始",
+    "noService": "利用可能なカスタマーサービスはありません",
+    "placeholder": "メッセージを入力...",
+    "send": "送信",
+    "connectError": "カスタマーサービスへの接続に失敗しました。後でもう一度お試しください。",
+    "uploadImage": "画像をアップロード",
+    "imageMessage": "画像メッセージ",
+    "imageTypeError": "画像ファイルを選択してください。",
+    "imageSizeError": "画像サイズは5MBを超えることはできません。",
+    "uploadError": "画像のアップロードに失敗しました。後でもう一度お試しください。",
+    "status": {
+      "idle": "接続準備中",
+      "connecting": "接続中...",
+      "connected": "オンライン",
+      "disconnected": "切断されました",
+      "error": "接続失敗"
+    }
+  },
   "home": {
     "reviews": "Clutchレビュー 38件",
     "heroTitle": "私たちはECブランドとストアを構築します",

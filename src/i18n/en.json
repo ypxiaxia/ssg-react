@@ -10,6 +10,30 @@
     "submit": "Submit",
     "usd": "USD"
   },
+  "support": {
+    "floatingButton": "Contact support",
+    "title": "Customer Service",
+    "online": "We are here to help",
+    "welcome": "Hello, please enter your question and we will reply as soon as possible.",
+    "agent": "Support",
+    "startChat": "Tap to start chat",
+    "noService": "No customer service available",
+    "placeholder": "Type a message...",
+    "send": "Send",
+    "connectError": "Customer service connection failed. Please try again later.",
+    "uploadImage": "Upload image",
+    "imageMessage": "Image message",
+    "imageTypeError": "Please choose an image file.",
+    "imageSizeError": "Image size cannot exceed 5MB.",
+    "uploadError": "Image upload failed. Please try again later.",
+    "status": {
+      "idle": "Ready to connect",
+      "connecting": "Connecting...",
+      "connected": "Online",
+      "disconnected": "Disconnected",
+      "error": "Connection failed"
+    }
+  },
   "home": {
     "reviews": "38 Clutch Reviews",
     "heroTitle": "We build eCommerce brands and stores",
