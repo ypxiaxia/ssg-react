@@ -27,6 +27,12 @@ export default defineConfig(({mode}) => {
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ''),
         },
+        ['/ws']: {
+          // 线上API地址
+          target: 'ws://127.0.0.1',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/ws/, ''),
+        },
         ['/images']: {
           // 线上API地址
           target: 'http://127.0.0.1:9004',

@@ -145,7 +145,11 @@ export default function CustomerServiceChat() {
   const token = useAuthStore((state) => state.token);
   const user = useAuthStore((state) => state.user);
   const hidden = AUTH_PATHS.has(location.pathname);
-  const supportSocketUrl = String(import.meta.env.VITE_SUPPORT_WS_URL || '').trim();
+  const supportSocketUrl = useMemo(() => {
+    const url = new URL('/ws', window.location.href);
+    url.protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    return url.toString();
+  }, []);
 
   useEffect(() => {
     setMessages((prev) => {
