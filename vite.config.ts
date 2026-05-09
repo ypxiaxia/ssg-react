@@ -29,7 +29,7 @@ export default defineConfig(({mode}) => {
         },
         ['/ws']: {
           // 线上API地址
-          target: 'ws://127.0.0.1',
+          target: 'ws://127.0.0.1:8088',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/ws/, ''),
         },

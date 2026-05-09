@@ -1,4 +1,4 @@
-import { ImagePlus, MessageCircle, Send, X } from 'lucide-react';
+import { ImagePlus, Loader2, MessageCircle, Send, X } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { ChangeEvent, FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -56,9 +56,14 @@ const parseIncomingMessage = (data: MessageEvent['data']) => {
     if (parsed.cmd === 'heart') return null;
 
     const payload = parsed.data && typeof parsed.data === 'object' ? parsed.data : parsed;
-    const isImage = parsed.cmd === 'image' || payload.type === 'image' || payload.image || payload.imageUrl;
+    const isServerImage = parsed.cmd === 'server' && Number(payload.type) === 2;
+    const isImage = isServerImage
+      || parsed.cmd === 'image'
+      || payload.type === 'image'
+      || payload.image
+      || payload.imageUrl;
     const content = String(
-      payload.content || payload.message || payload.msg || payload.data || payload.imageUrl || payload.image || ''
+      payload.msg || payload.content || payload.message || payload.data || payload.imageUrl || payload.image || ''
     ).trim();
 
     const ackMsgId = parsed.cmd === 'server' && parsed.ext && typeof parsed.ext === 'object'
@@ -152,6 +157,28 @@ export default function CustomerServiceChat() {
   }, []);
 
   useEffect(() => {
+    if (heartbeatTimerRef.current) {
+      window.clearInterval(heartbeatTimerRef.current);
+      heartbeatTimerRef.current = null;
+    }
+    socketRef.current?.close();
+    socketRef.current = null;
+
+    setMessages([createMessage(t('support.welcome'), 'support')]);
+    setUnreadCount(0);
+    setHistoryPage(0);
+    setHasMoreHistory(true);
+    setHistoryLoaded(false);
+    setLoadingHistory(false);
+    suppressNextScrollRef.current = false;
+
+    if (!token) {
+      setOpen(false);
+      setConnectionStatus('idle');
+    }
+  }, [token, t]);
+
+  useEffect(() => {
     setMessages((prev) => {
       if (prev.length !== 1 || prev[0].sender !== 'support') return prev;
       return [{ ...prev[0], content: t('support.welcome') }];
@@ -166,7 +193,7 @@ export default function CustomerServiceChat() {
   }, [open]);
 
   useEffect(() => {
-    if (hidden) return;
+    if (hidden || !token) return;
 
     if (!supportSocketUrl) {
       setConnectionStatus('error');
@@ -234,6 +261,7 @@ export default function CustomerServiceChat() {
   }, [messages.length, open]);
 
   const loadHistoryMessages = useCallback(async (targetPage: number) => {
+    if (!token) return;
     if (loadingHistory || (targetPage > 1 && !hasMoreHistory)) return;
 
     const listEl = messagesContainerRef.current;
@@ -495,7 +523,11 @@ export default function CustomerServiceChat() {
                   aria-label={t('support.uploadImage')}
                   className="w-12 h-12 rounded-full bg-gray-100 text-gray-700 flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  <ImagePlus className="w-5 h-5" />
+                  {uploadingImage ? (
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                  ) : (
+                    <ImagePlus className="w-5 h-5" />
+                  )}
                 </button>
                 <input
                   value={inputValue}
